@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "underground-system"
+version = "1.0.0"
+description = "London Underground System"
+
+[tools.setuptools.packages.find]
+#where = ["."]
