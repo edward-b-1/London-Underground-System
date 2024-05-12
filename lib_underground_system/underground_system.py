@@ -38,7 +38,7 @@ class UndergroundSystem():
         station_name: str,
         checkout_datetime: datetime,
     ) -> None:
-        """_summary_
+        """Passenger check-out function
 
         Args:
             passenger_id (int): Unique identifier for passenger
