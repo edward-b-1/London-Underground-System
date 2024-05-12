@@ -14,13 +14,13 @@ def main():
     underground_system.checkin(
         passenger_id=1,
         station_name='Kings Cross',
-        datetime=datetime(year=2024, month=1, day=1, hour=9, minute=30, second=0, tzinfo=timezone.utc)
+        checkin_datetime=datetime(year=2024, month=1, day=1, hour=9, minute=30, second=0, tzinfo=timezone.utc)
     )
 
     underground_system.checkout(
         passenger_id=1,
         station_name='Oxford Circus',
-        time=datetime(year=2024, month=1, day=1, hour=10, minute=10, second=0, tzinfo=timezone.utc)
+        checkout_datetime=datetime(year=2024, month=1, day=1, hour=10, minute=10, second=0, tzinfo=timezone.utc)
     )
 
     average_time = underground_system.get_average_time(
